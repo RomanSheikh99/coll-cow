@@ -1,0 +1,84 @@
+/*--------------------------
+    Google Fonts CDN link 
+ ----------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&family=Poppins:wght@300;500;700;900&display=swap');
+/*--------------------------
+    Google Fonts CDN link 
+ ----------------------------*/
+
+/*--- variable declare hare ---*/
+
+:root {
+    --font-1: 'Courgette', cursive;
+    --font-2: 'Kaushan Script', cursive;
+    --pop: 'Poppins', sans-serif;
+    --ylw: #FFB200;
+    --blk: #191919;
+}
+
+/*--- variable declare hare ---*/
+
+/*--- Common StyleSheet Start ---*/
+
+html {
+    font-size: 1vw;
+}
+
+.btn {
+    font-size: 3rem;
+    background-color: var(--ylw);
+    font-family: var(--pop);
+    text-transform: capitalize;
+    color: var(--blk);
+    padding: 1rem 3rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    transition: transform 1s linear;
+}
+
+.btn:hover {
+    transform: scaleX(1.2);
+}
+
+/*--- Common StyleSheet End ---*/
+
+/* Header Section Style Sheet Start */
+
+#home,#home ul {
+    background: var(--ylw);
+}
+
+#home a, #home ul li a{
+    color: var(--blk);
+}
+#home a:hover{
+    transform: scaleX(1.1);
+}
+#home h1{
+    font-size: 2.5rem;
+}
+.cow-logo:hover{
+    transform: scaleX(1.4);
+}
+#home ul li a{
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    transition: background .5s linear;
+}
+#home ul li a:hover{
+    background: #fff;
+}
+
+@media (max-width: 700px) {
+    #home h1{
+        font-size: 4rem;
+    }
+    #home ul li a,#home button span{
+        font-size: 2rem;
+    }
+}
+
+/* Header Section Style Sheet End */
