@@ -93,7 +93,35 @@ html {
 
 /* Bennar Section style sheet Start */
 
+.slide-1{
+    background: linear-gradient(rgba(0, 0, 0, 0.445),rgba(0, 0, 0, 0.445)), url(../img/cowhat/cowhat-4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide-2{
+    background: linear-gradient(rgba(0, 0, 0, 0.445),rgba(0, 0, 0, 0.445)), url(../img/cowhat/cowhat-5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .slide-3{
-    background: url(../img/);
+    background: linear-gradient(rgba(0, 0, 0, 0.445),rgba(0, 0, 0, 0.445)), url(../img/cowhat/cowhat-6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cow-bennar{
+    text-align: center;
+    padding: 5vw 2vw;
+    color: #fff;
+}
+.cow-bennar h2{
+    font-size: 6rem;
+    text-transform: capitalize;
+    margin-bottom: 4rem;
+}
+.cow-bennar p{
+    font-size: 1.5rem;
 }
 /* Bennar Section style sheet End */
