@@ -80,5 +80,20 @@ html {
         font-size: 2rem;
     }
 }
+@media (max-width: 320px) {
+    #home h1{
+        font-size: 5rem;
+    }
+    #home ul li a,#home button span{
+        font-size: 3rem;
+    }
+}
 
 /* Header Section Style Sheet End */
+
+/* Bennar Section style sheet Start */
+
+.slide-3{
+    background: url(../img/);
+}
+/* Bennar Section style sheet End */
