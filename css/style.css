@@ -46,12 +46,28 @@ html {
 
 /* Header Section Style Sheet Start */
 
-#home,#home ul {
-    background: var(--ylw);
+#home {
+    background: transparent;
+    position: fixed;
+    top: 0;
+    z-index: 999;
 }
-
-#home a, #home ul li a{
+#home ul li > ul{
+    background: #fff;
     color: var(--blk);
+}
+#home ul li > ul li a{
+    color: var(--blk);
+    border-bottom: 1px solid gray;
+    border-radius: 0;
+}
+#home ul li > ul li a:hover{
+    background: transparent;
+    letter-spacing: 5px;
+    transform: scale(1);
+}
+#home a{
+    color: #fff;
 }
 #home a:hover{
     transform: scaleX(1.1);
@@ -70,6 +86,7 @@ html {
 }
 #home ul li a:hover{
     background: #fff;
+    color: var(--blk);
 }
 
 @media (max-width: 700px) {
