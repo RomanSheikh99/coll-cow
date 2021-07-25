@@ -142,18 +142,21 @@ html {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 .slide-2{
     background: linear-gradient(rgba(0, 0, 0, 0.445),rgba(0, 0, 0, 0.445)), url(../img/cowhat/cowhat-5.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 .slide-3{
     background: linear-gradient(rgba(0, 0, 0, 0.445),rgba(0, 0, 0, 0.445)), url(../img/cowhat/cowhat-6.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 .cow-bennar{
     text-align: center;
